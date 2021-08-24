@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "gmvwebsite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Err or: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "gmv"
+  ],
+  "author": "hhv",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.26.3",
+    "cors": "^2.8.5",
+    "datauri": "^4.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.33",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "nodemailer": "6.6.3",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "slugify": "^1.6.0",
+    "streamifier": "^0.1.1",
+    "swagger-ui-express": "^4.1.6",
+    "winston": "^3.3.3"
+  }
+}
